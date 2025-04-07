@@ -8,15 +8,10 @@ public class ArithmeticOperationTest {
 
 
 	@Test
-	public void testAdd()
-	{
+public void testAdd() {
+    assertEquals(999, ArithmeticOperations.add(2, 3)); // this will fail
+}
 
-		ArithmeticOperation operations = new ArithmeticOperation();
-		Integer actual = operations.addOrSub(2, 6);
-		Integer expected = 8;
-		assertEquals(expected, actual);
-
-	}
     // @Test
     // public void testSub()
     // {
